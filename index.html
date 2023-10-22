@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>喵喵书岛-柚璃小铺</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index2.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/register.css">
+
+</head>
+
+<body>
+  <!-- 项部导航 -->
+  <div class="shudao_topnav">
+    <div class="wrapper">
+      <!-- 顶部导航 -->
+      <ul class="shudao_navs">
+        <li>
+          <a href="./login.html">请先登录</a>
+        </li>
+        <li>
+          <a href="./zhuce.html">免费注册</a>
+        </li>
+        <li>
+          <a href="javascript:;">我的书架</a>
+        </li>
+        <li>
+          <a href="javascript:;">会员中心</a>
+        </li>
+        <li>
+          <a href="javascript:;">帮助中心</a>
+        </li>
+        <li>
+          <a href="javascript:;">在线客服</a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <i class="mobile sprites"></i>
+            手机版
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- 头部 -->
+  <div class="shudao_header">
+    <div class="wrapper">
+      <!-- 网站Logo -->
+      <h1 class="shudao_logo"><a href="/">喵喵书岛</a></h1>
+      <!-- 主导航 -->
+      <div class="shudao_navs">
+        <ul class="clearfix">
+          <li>
+            <a href="./index.html">首页</a>
+          </li>
+          <li>
+            <a href="javascript:;">哲学</a>
+          </li>
+          <li>
+            <a href="javascript:;">人文</a>
+          </li>
+          <li>
+            <a href="javascript:;">文学</a>
+          </li>
+          <li>
+            <a href="javascript:;">历史</a>
+          </li>
+          <li>
+            <a href="javascript:;">自然科学</a>
+          </li>
+          <li>
+            <a href="javascript:;">参考书籍</a>
+          </li>
+          <li>
+            <a href="javascript:;">喵喵种类</a>
+          </li>
+        </ul>
+      </div>
+      <!-- 站内搜索 -->
+      <div class="shudao_search clearfix">
+        <!-- 搜索框 -->
+        <div class="shudao_search_wrapper">
+          <input type="text" placeholder="搜一搜" onclick="location.href='./search.html'">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 分类及焦点图 -->
+  <div class="shudao_entry">
+    <div class="wrapper">
+      <!-- 分类 -->
+      <div class="shudao_category">
+        <!-- 顶级分类 -->
+        <ul class="shudao_category_super">
+          <li>
+            <a href="javascript:;">
+              哲学
+              <small>国学</small>
+              <small>西方哲学</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li class="active">
+            <a href="javascript:;">
+              人文
+              <small>法学</small>
+              <small>政治学</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li>
+            <a href="javascript:;">
+              文学
+              <small>中国文学</small>
+              <small>外国文学</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li>
+            <a href="javascript:;">
+              历史
+              <small>中国史</small>
+              <small>外国史</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li>
+            <a href="javascript:;">
+              自然
+              <small>数学</small>
+              <small>物理学</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li>
+            <a href="javascript:;">
+              参考
+              <small>词典</small>
+              <small>地图</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li>
+            <a href="javascript:;">
+              喵喵
+              <small>狸猫</small>
+              <small>橘猫</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li>
+            <a href="javascript:;">
+              动漫
+              <small>动漫学堂</small>
+              <small>名著绘图本</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li>
+            <a href="javascript:;">
+              时尚
+              <small>减肥健身</small>
+              <small>化妆</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+          <li>
+            <a href="javascript:;">
+              旅游
+              <small>旅游随笔</small>
+            </a>
+            <i class="sprites"></i>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="shudao_banner">
+
+        <ul>
+          <li>
+            <a href="javascript:;">
+              <img src="/images/logo01.jpg" height="500px" width="1500px" alt="">
+            </a>
+          </li>
+        </ul>
+        <!-- 切换按钮  -->
+        <a href="javascript:;" class="prev sprites"></a>
+        <a href="javascript:;" class="next sprites"></a>
+        <!-- 指示器 -->
+        <div class="indicator">
+          <span></span>
+          <span></span>
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="shudao_goods_popular shudao_panel">
+    <div class="wrapper">
+      <!-- 面板头部 -->
+      <div class="shudao_panel_header">
+        <h3>人气推荐<small>爆款阅读 不容错过</small></h3>
+      </div>
+      <!-- 书籍列表 -->
+      <div class="shudao_panel_goods_1">
+        <a href="javascript:;">
+          <img src="./images/renqi_01.jpg">
+          <span class="title">特惠推荐</span>
+          <span class="alt">我猜得到 你的需要</span>
+        </a>
+        <a href="./index-hot.html">
+          <img src="./images/renqi_02.jpg">
+          <span class="title">爆款书籍</span>
+          <span class="alt">人气好书推荐</span>
+        </a>
+        <a href="./index-one.html">
+          <img src="./images/renqi_03.jpg">
+          <span class="title">场景使用一站买全</span>
+          <span class="alt">编辑精心整理推荐</span>
+        </a>
+        <a href="javascript:;">
+          <img src="./images/youhui.jpg">
+          <span class="title">领券中心</span>
+          <span class="alt">发现更多超值优惠券</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="shudao_goods_category shudao_panel">
+    <div class="wrapper">
+      <div class="shudao_panel_header">
+        <h3>哲学</h3>
+        <a href="javascript:;" class="more">
+          查看全部<i class="sprites"></i>
+        </a>
+        <div class="tabs-bar">
+          <a href="javascript:;" class="active">国学</a>
+          <a href="javascript:;">西方哲学</a>
+          <a href="javascript:;">共产主义</a>
+          <a href="javascript:;">美学</a>
+          <a href="javascript:;">心理学</a>
+          <a href="javascript:;">逻辑学</a>
+        </div>
+      </div>
+      <!-- 书籍列表 -->
+      <div class="shudao_panel_goods_2">
+        <ul class="clearfix">
+          <li>
+            <a href="javascript:;">
+              <img src="/images/shijing-01.jpg" height="610px" alt="">
+            </a>
+          </li>
+          <li>
+            <!-- 书籍图片 -->
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/zhexue_chunqiu.jpg" alt="">
+              </div>
+            </a>
+            <!-- 书籍信息 -->
+            <div class="meta">
+              <p class="name">春秋左传诂 正版书籍小说 畅销书</p>
+              <p class="price"><small>￥</small>57.59</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/zhexue_lunyu.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">论语全集孔子著正版书籍 四书五经之一</p>
+              <p class="price"><small>￥</small>69</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/zhexue_zhouli.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">正版周礼全译 十三经儒家经典</p>
+              <p class="price"><small>￥</small>57.55</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/zhexue_zhanguoce.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">正版 战国策上下两册 战国策全
+              <p class="price"><small>￥</small>29.8</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/zhexue_lixiangguo.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">理想国 [古希腊]柏拉图 著</p>
+              <p class="price"><small>￥</small>56.25</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/zhexue_makesizhuyi.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">马克思主义哲学原理（上、下）</p>
+              <p class="price"><small>￥</small>67.66</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/zhexue_meixue.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">美学第一卷(汉译名著本) 【德】黑格尔</p>
+              <p class="price"><small>￥</small>40.5</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/zhexue_xinlixue.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">心理学与生活（第19版）</p>
+              <p class="price"><small>￥</small>74</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- 人文 -->
+      <div class="shudao_panel_header">
+        <h3>人文</h3>
+        <a href="javascript:;" class="more">
+          查看全部<i class="sprites"></i>
+        </a>
+        <div class="tabs-bar">
+          <a href="javascript:;" class="active">法学</a>
+          <a href="javascript:;">政治学</a>
+          <a href="javascript:;">军事学</a>
+          <a href="javascript:;">经济学</a>
+          <a href="javascript:;">管理学</a>
+          <a href="javascript:;">统计学</a>
+          <a href="javascript:;">教育学</a>
+        </div>
+      </div>
+      <!-- 书籍列表 -->
+      <div class="shudao_panel_goods_2">
+        <ul class="clearfix">
+          <li>
+            <a href="javascript:;">
+              <img src="./images/renwen.jpg" height="610px" alt="">
+            </a>
+          </li>
+          <li>
+            <!-- 书籍图片 -->
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/renwen_faxue.jpg" alt="">
+              </div>
+            </a>
+            <!-- 书籍信息 -->
+            <div class="meta">
+              <p class="name">新版宪法学基础（第二版） 朱应平 北京大学</p>
+              <p class="price"><small>￥</small>43</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="/images/renwen_faxuegaishu.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">法学概论（第十四版）</p>
+              <p class="price"><small>￥</small>42.94</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/renwen_guanlixue.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">20世纪的管理科学 谭力文,包玉泽　著</p>
+              <p class="price"><small>￥</small>32.4</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/renwen_guanlixue02.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">管理学 斯蒂芬·罗宾斯(Stephen P.Robbins)</p>
+              <p class="price"><small>￥</small>28</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/renwen_jingjixue.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">经济学基础（第三版）</p>
+              <p class="price"><small>￥</small>53.78</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/renwen_tongjixue.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">统计学（第2版）</p>
+              <p class="price"><small>￥</small>37.13</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/renwen_zhengzhixue.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">外交学（第三版）</p>
+              <p class="price"><small>￥</small>34.7</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/renwen_junshixue.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">【正版】军事管理学 刘继贤</p>
+              <p class="price"><small>￥</small>24</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+
+      <div class="shudao_panel_header">
+        <h3>文学</h3>
+        <a href="javascript:;" class="more">
+          查看全部<i class="sprites"></i>
+        </a>
+        <div class="tabs-bar">
+          <a href="javascript:;" class="active">文学理论</a>
+          <a href="javascript:;">文学史</a>
+          <a href="javascript:;">中国文学</a>
+          <a href="javascript:;">外国文学</a>
+          <a href="javascript:;">艺术理论</a>
+          <a href="javascript:;">艺术史</a>
+        </div>
+      </div>
+      <!-- 书籍列表 -->
+      <div class="shudao_panel_goods_2">
+        <ul class="clearfix">
+          <li>
+            <a href="javascript:;">
+              <img src="./images/wenxue.jpg" height="610px" alt="">
+            </a>
+            <!--             <div class="label">
+              <span>餐厨馆</span>
+              <span>大额优惠<br>等你来拿</span>
+            </div> -->
+          </li>
+          <li>
+            <!-- 书籍图片 -->
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/wenxue_huozhe.jpg" alt="">
+              </div>
+            </a>
+            <!-- 书籍信息 -->
+            <div class="meta">
+              <p class="name">活着余华著 经典作品长篇小说</p>
+              <p class="price"><small>￥</small>31</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/wenxue_kuangrenriji.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">狂人日记：鲁迅小说全集</p>
+              <p class="price"><small>￥</small>19</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/wenxue_zhaohuaxishi.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">朝花夕拾原著正版 鲁迅著文学经典</p>
+              <p class="price"><small>￥</small>10.9</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/wenxue_yecao.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">野草 百年纪念版 鲁迅 正版书籍</p>
+              <p class="price"><small>￥</small>9.76</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/wenxue_jianai.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">经典译林 简爱 精装 课外读书 </p>
+              <p class="price"><small>￥</small>16.3</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/wenxue_xinqier.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">相约星期二中文版 米奇 阿尔博姆作品</p>
+              <p class="price"><small>￥</small>25.97</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/wenxue_weicheng.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">围城 现当代文学小说 钱钟书钱锺书著 正版</p>
+              <p class="price"><small>￥</small>29.8</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <div class="img-box">
+                <img src="./images/wenxue_xiangshuyiyang.jpg" alt="">
+              </div>
+            </a>
+            <div class="meta">
+              <p class="name">像树一样自由 给孩子们的信 胡泳著 文学</p>
+              <p class="flag">海鲜年货</p>
+              <p class="price"><small>￥</small>22.9</p>
+            </div>
+            <!-- 其它 -->
+            <div class="extra">
+              <a href="javascript:;">
+                <span>找相似</span>
+                <span>发现现多宝贝&gt;</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="shudao_goods_topic shudao_panel">
+        <div class="wrapper">
+          <div class="shudao_panel_header">
+            <h3>最新专题</h3>
+            <a href="javascript:;" class="more">
+              查看全部<i class="sprites"></i>
+            </a>
+          </div>
+          <div class="shudao_topic">
+            <ul class="clearfix">
+              <li>
+                <a href="javascript:;">
+                  <img src="./images/fushengliuji.jpg" alt="">
+                  <div class="meta">
+                    <p class="title">
+                      阅读这些书籍才不算辜负自己
+                      <small>读好书&nbsp;&nbsp;&nbsp;&nbsp;走好路</small>
+                    </p>
+                    <span class="price"><small>￥</small>29.9起</span>
+                  </div>
+                </a>
+                <div class="social">
+                  <span class="like">
+                    <i class="sprites"></i>1220
+                  </span>
+                  <span class="view">
+                    <i class="sprites"></i>1800
+                  </span>
+
+                  <span class="reply">
+                    <i class="sprites"></i>1220
+                  </span>
+                </div>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./images/xixiangji.jpg" alt="">
+                  <div class="meta">
+                    <p class="title">
+                      阅读这些书籍才不算辜负自己
+                      <small>读好书&nbsp;&nbsp;&nbsp;&nbsp;走好路</small>
+                    </p>
+                    <span class="price"><small>￥</small>29.9起</span>
+                  </div>
+                </a>
+                <div class="social">
+                  <span class="liked">
+                    <i class="sprites"></i>1220
+                  </span>
+                  <span class="view">
+                    <i class="sprites"></i>1800
+                  </span>
+
+                  <span class="reply">
+                    <i class="sprites"></i>1220
+                  </span>
+                </div>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./images/hongloumeng.jpg" alt="">
+                  <div class="meta">
+                    <p class="title">
+                      阅读这些书籍才不算辜负自己
+                      <small>读好书&nbsp;&nbsp;&nbsp;&nbsp;走好路</small>
+                    </p>
+                    <span class="price"><small>￥</small>29.9起</span>
+                  </div>
+                </a>
+                <div class="social">
+                  <span class="like">
+                    <i class="sprites"></i>1220
+                  </span>
+                  <span class="view">
+                    <i class="sprites"></i>1800
+                  </span>
+
+                  <span class="reply">
+                    <i class="sprites"></i>1220
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- 公共底部 -->
+      <div class="shudao_footer clearfix">
+        <div class="wrapper">
+          <!-- 联系我们 -->
+          <div class="contact clearfix">
+            <dl>
+              <dt>客户服务</dt>
+              <dd class="chat">在线客服</dd>
+              <dd class="feedback">问题反馈</dd>
+            </dl>
+            <dl>
+              <dt>关注我们</dt>
+              <dd class="weixin">公众号</dd>
+              <dd class="weibo">微博</dd>
+            </dl>
+            <dl>
+              <dt>下载APP</dt>
+              <dd class="qrcode">
+                <img src="./images/erweima.jpg">
+              </dd>
+              <dd class="download">
+                <span>扫描二维码</span>
+                <span>立马下载APP</span>
+                <a href="javascript:;">下载页面</a>
+              </dd>
+            </dl>
+            <dl>
+              <dt>服务热线</dt>
+              <dd class="hotline">
+                400-0000-000
+                <small>周一至周日 8:00-18:00</small>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <!-- 其它 -->
+        <div class="extra">
+          <div class="wrapper">
+            <!-- 口号 -->
+            <div class="slogan">
+              <a href="javascript:;" class="price">价格优惠</a>
+              <a href="javascript:;" class="express">物流快捷</a>
+              <a href="javascript:;" class="quality">正品保证</a>
+            </div>
+            <!-- 版权信息 -->
+            <div class="copyright">
+              <p>
+                <a href="javascript:;">关于我们</a>
+                <a href="javascript:;">帮助中心</a>
+                <a href="javascript:;">售后服务</a>
+                <a href="javascript:;">配送与验收</a>
+                <a href="javascript:;">商务合作</a>
+                <a href="javascript:;">搜索推荐</a>
+                <a href="javascript:;">友情链接</a>
+              </p>
+              <p>CopyRight &copy; 喵喵书岛</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+
+</html>

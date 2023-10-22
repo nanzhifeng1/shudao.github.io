@@ -1,0 +1,285 @@
+.shudao-wrapper {
+  background: #f5f5f5;
+  line-height: 1.4;
+}
+
+.shudao-wrapper .container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.shudao-card {
+  width: 100%;
+  height: 800px;
+  background: #fff;
+}
+
+.shudao-card h3 {
+  font-size: 26px;
+  font-weight: normal;
+  color: #999999;
+  padding-left: 50px;
+  height: 180px;
+  line-height: 180px;
+}
+
+.shudao-form {
+  padding-left: 460px;
+}
+
+.shudao-form .shudao-form-item {
+  position: relative;
+  padding-bottom: 24px;
+}
+
+.shudao-form .shudao-form-item .msg {
+  color: #ff4d4f;
+  position: absolute;
+  left: 2px;
+  bottom: 2px;
+}
+
+
+.shudao-form .shudao-form-item.pl50 {
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.shudao-form .shudao-form-item span.iconfont {
+  position: absolute;
+  left: 15px;
+  top: 13px;
+  color: #666;
+  font-size: 18px;
+}
+
+.shudao-form .shudao-form-item i {
+  color: skyblue;
+  font-size: 14px;
+}
+
+.shudao-form .shudao-form-item input {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #e4e4e4;
+  padding-left: 40px;
+}
+
+.shudao-form .shudao-form-item.error input {
+  border-color: #ff4d4f;
+}
+
+.shudao-form .shudao-form-item input::placeholder {
+  color: #cccccc !important;
+}
+
+.shudao-form .shudao-form-item .submit {
+  width: 300px;
+  height: 50px;
+  background: skyblue;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.shudao-form .shudao-form-item .code {
+  position: absolute;
+  left: 190px;
+  top: 16px;
+  width: 100px;
+  color: skyblue;
+  text-align: right;
+}
+
+.shudao-form .shudao-form-item .code.ing {
+  color: #cccccc;
+}
+
+.shudao-steps {
+  display: flex;
+  justify-content: space-between;
+  width: 720px;
+  height: 96px;
+  margin: 0 auto;
+}
+
+.shudao-steps .item {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.shudao-steps .item .text {
+  text-align: center;
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 63px;
+  color: #999;
+}
+
+.shudao-steps .item .step {
+  border: 2px solid #e4e4e4;
+  color: #ccc;
+  background: #fff;
+  border-radius: 50%;
+  line-height: 46px;
+  text-align: center;
+  font-size: 28px;
+  z-index: 999;
+  display: block;
+  position: relative;
+}
+
+.shudao-steps .item::after,
+.shudao-steps .item::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 24px;
+  height: 2px;
+  background: #e4e4e4;
+  width: 120px;
+}
+
+.shudao-steps .item::after {
+  transform: translateX(-100%);
+}
+
+.shudao-steps .item:first-child::after {
+  display: none;
+}
+
+.shudao-steps .item:last-child::before {
+  display: none;
+}
+
+.shudao-steps .item.active .text {
+  color: skyblue;
+}
+
+.shudao-steps .item.active .step {
+  background: skyblue;
+  color: #fff;
+  border-color: skyblue;
+}
+
+.shudao-steps .item.active::after,
+.shudao-steps .item.active::before {
+  content: "";
+  background: skyblue;
+}
+
+.shudao-form-label {
+  padding-left: 360px;
+  margin-top: 80px;
+}
+
+.shudao-form-label .shudao-form-item {
+  position: relative;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.shudao-form-label .shudao-form-item label {
+  width: 100px;
+  padding-right: 15px;
+  text-align: right;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  color: #999;
+}
+
+.shudao-form-label .shudao-form-item input {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #e4e4e4;
+  padding-left: 10px;
+}
+
+.shudao-form-label .shudao-form-item input::placeholder {
+  color: #cccccc !important;
+}
+
+.shudao-form-label .shudao-form-item input:read-only {
+  background: #f5f5f5;
+  color: #999;
+}
+
+.shudao-form-label .shudao-form-item .submit {
+  width: 300px;
+  height: 50px;
+  background: skyblue;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+.shudao-form-label .shudao-form-item .captcha {
+  line-height: 50px;
+  height: 50px;
+}
+
+.shudao-form-label .shudao-form-item .captcha img {
+  width: 134px;
+  height: 50px;
+}
+
+.shudao-form-label .shudao-form-item .captcha a {
+  color: skyblue;
+}
+
+.shudao-form-label .shudao-form-item .code {
+  position: absolute;
+  left: 310px;
+  top: 16px;
+  color: skyblue;
+}
+
+.shudao-form-label .shudao-form-item .code.ing {
+  color: #cccccc;
+}
+
+.shudao-success-box {
+  padding-top: 250px;
+  text-align: center;
+  color: #999999;
+}
+
+.shudao-success-box .iconfont {
+  font-size: 80px;
+  color: #1DC779;
+}
+
+.shudao-success-box .tit {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.shudao-success-box .desc {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.shudao-success-box .btn {
+  width: 300px;
+  height: 50px;
+  background: skyblue;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 auto;
+}
